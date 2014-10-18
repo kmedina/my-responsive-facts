@@ -1,0 +1,87 @@
+
+body{
+	color:#000066;
+	font-family: 'Kalam', cursive;
+	background:#FFCC66;
+}
+.container{
+	max-width: 1000px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+@media (min-width: 430px){
+
+	.sixth-fact{
+	display:none;
+	}
+	body{
+		background:#33CCCC;}
+
+	@media (min-width: 718px){
+
+	body{
+		background:#9966FF;}
+	}
+
+	@media (min-width: 950px){
+
+	body{
+		background:#993399;}
+	}
+
+	@media (min-width: 1125px){
+
+	body{
+		background:#CC3366;}
+	}
+
+	@media (min-width: 1300px){
+
+	body{
+		background:#FF6666;}
+	}
+}
+@media (min-width: 718px){
+
+	.fifth-fact{
+	display:none;
+	}
+}
+@media (min-width: 950px){
+
+	.fourth-fact{
+	display:none;
+	}
+}
+@media (min-width: 1125px){
+
+	.third-fact{
+	display:none;
+	}
+}
+@media (min-width: 1300px){
+
+	
+	.second-fact{
+	display:none;
+	}
+	
+}
+}
+
+
+/* Utilities */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
